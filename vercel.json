@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "env": {
+    "NEXT_PUBLIC_FIREBASE_API_KEY": "AIzaSyAbh52X4b0SalfflrjsW9rLhhs2BCJiOPw",
+    "NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN": "sejel-85d2b.firebaseapp.com",
+    "NEXT_PUBLIC_FIREBASE_PROJECT_ID": "sejel-85d2b",
+    "NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET": "sejel-85d2b.firebasestorage.app",
+    "NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID": "767739376005",
+    "NEXT_PUBLIC_FIREBASE_APP_ID": "1:767739376005:web:f965f4a7b7c77d3fb954ec"
+  }
+}
