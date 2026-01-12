@@ -1,4 +1,4 @@
-// firebase.ts
+// firebase.ts - Updated configuration for sejel-85d2b project
 import { getApp, getApps, initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { getDatabase } from 'firebase/database';
