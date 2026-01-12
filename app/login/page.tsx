@@ -17,11 +17,13 @@ export default function LoginPage() {
     setError("")
     setLoading(true)
 
-    // Bypass for adna@adna.com
-    if (email === "adna@adna.com" && password === "adna@adna.com") {
+    // Bypass for admin users
+    if ((email === "adna@adna.com" && password === "adna@adna.com") ||
+        (email === "kenan@kenan.com" && password === "kenan@kenan.com")) {
       console.log("Bypassing authentication for admin user")
       // Set a flag in localStorage to indicate the user is logged in via bypass
       localStorage.setItem("admin_bypass", "true")
+      localStorage.setItem("admin_email", email)
       router.push("/")
       setLoading(false)
       return
